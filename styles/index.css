@@ -1,0 +1,46 @@
+p {
+    font-family: Roboto;
+}
+
+.pic {
+    width: 1000px;
+    height: 500px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.first {
+    font-size: 28px;
+    line-height: 10px;
+    width: 800px;
+    margin-left: 240px;
+}
+
+.second {
+    font-size: 28px;
+    margin-left: 413px;
+    line-height: 3px;
+}
+
+.third {
+    font-size: 20px;
+    margin-left: 204px;
+    line-height: 80px;
+}
+
+.one {
+    width: 201px;
+    margin-right: 811px;
+    background-color: brown;
+    height: 1px;
+    margin-top: -48px;
+}
+
+.two {
+    width: 100px;
+    margin-right: 860px;
+    background-color: red;
+    height: 1px;
+    margin-top: -7px;
+}
+
