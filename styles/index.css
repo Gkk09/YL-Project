@@ -1,24 +1,244 @@
-p {
-    font-family: Roboto;
+div {
+    font-family: Lato;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.name {
+    width: 140px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+}
+
+.middle-section {
+    align-items: justify;
+    display: flex;
+    flex: 1;
+    max-width: 1500px;
+}
+
+.search-bar {
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 600px;
+    height: 22px;
+    border-color: rgb(151, 147, 147);
+    flex: 1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px;
+    box-shadow: inset 1px 2px 3px
+    rgba(0, 0, 0, 0.05);
+}
+
+.search-bar::placeholder {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.search-button {
+    width: 34px;
+    height: 27.7px;
+    align-items: center;
+    margin-left: -35.65px;
+    margin-top: 10px;
+    border-color: rgb(151, 147, 147);
+    background-color: rgb(151, 147, 147);
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    border: solid rgb(151, 147, 147);
+}
+
+.search-button:active {
+    opacity: 0.9;
+}
+
+.search-icon {
+    height: 25px;
+    width: 27px;
+    margin-top: -2px;
+    margin-left: -4.5px;
+    border-right: 5px;
+}
+
+.right-section {
+    width: 145px;
+    align-items: right;
+}
+
+.fav-button {
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: white;
+    border-style: outset;
+    border-color: white;
+    border: solid white;
+}
+
+.heart {
+    width: 30px;
+    margin-right: 50px;
+    margin-top: -6px;
+    align-items: center;
+
+}
+
+.heart:active {
+    opacity: 0.85;
+}
+
+.cartwheel {
+    width: 40px;
+    margin-top: -3px;
+    background-color: white;
+    border-color: white;
+    border-style: outset;
+    border: solid white;
+}
+
+.adding {
+   width: 28px;
+   height: 27.5px;
+   align-items: center;
+   margin-top: -4px;
+   margin-right: 20px;
+}
+
+.adding:active {
+    opacity: 0.85;
+}
+
+.end-section {
+    width: 300px;
+    align-items: center;
+}
+
+.signing-in {
+    margin-top: 8px;
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    color: brown;
+    border-width: 1.8px;
+    border-color: brown;
+    font-size: 15px;
+    font-weight: 545;
+}
+
+.signing-in:active {
+    opacity: 0.5;
+}
+
+.signing-up {
+    margin-top: 8px;
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    color: brown;
+    border-width: 1.8px;
+    border-color: brown;
+    font-size: 15px;
+    font-weight: 545;
+}
+
+.signing-up:active {
+    opacity: 0.5;
+}
+
+.new {
+    position: fixed;
+    margin-top: 20px;
+    
+}
+
+.smaL {
+    color: red;
+}
+
+.bt1 {
+    width: 80px;
+    margin-left: 450px;
+    border-color: white;
+    border: solid white;
+    color: black;
+}
+
+.bt1:active {
+    opacity: 0.5;
+}
+
+.bt2 {
+    width: 80px;
+    margin-left: -26px;
+    border-color: white;
+    border: solid white;
+    color: black;
+}
+
+.bt2:active {
+    opacity: 0.5;
+}
+
+.bt3 {
+    width: 90px;
+    margin-left: -25px;
+    border-color: white;
+    border: solid white;
+    color: black;
+}
+
+.bt3:active {
+    opacity: 0.5;
+}
+
+.bt4 {
+    width: 80px;
+    margin-left: -20px;
+    border-color: white;
+    border: solid white;
+    color: black;
+}
+
+.bt4:active {
+    opacity: 0.5;
 }
 
 .pic {
-    width: 1000px;
-    height: 500px;
-    margin-left: 130px;
+    margin-top: 70px;
+    width: 1240px;
+    height: 600px;
     cursor: pointer;
 }
 
 .first {
-    font-size: 28px;
+    font-size: 25px;
     line-height: 10px;
     width: 800px;
-    margin-left: 240px;
+    margin-left: 282px;
 }
 
 .second {
-    font-size: 28px;
-    margin-left: 413px;
+    font-size: 25px;
+    margin-left: 420px;
     line-height: 3px;
 }
 
@@ -44,3 +264,68 @@ p {
     margin-top: -7px;
 }
 
+button {
+    color: rgb(100, 20, 20);
+    border-radius: 3px;
+    border-color: red;
+    border-width: 1.5px;
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    margin-inline: 7px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.spaces {
+    margin-left: 199px;
+    width: 850px;
+}
+
+.heading {
+    font-size: 35px;
+    margin-top: 55px;
+    margin-left: 405px;
+}
+
+.three {
+    width: 309px;
+    margin-left: 430px;
+    background-color: brown;
+    height: 1px;
+    margin-top: -35px;
+}
+
+.four {
+    width: 245px;
+    margin-left: 462px;
+    background-color: red;
+    height: 1px;
+    margin-top: -7px;
+}
+
+.tag {
+    margin-left: 750px;
+    margin-top: -75px;
+    font-size: 10px;
+    font-weight: bold;
+    height: 30px;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 200px;
+    background-color: red; 
+    width: 35px;
+    position: relative;
+    transform: rotate(45deg);
+    text-align: justify;
+}
+
+.t {
+    margin-left: 8.5px;
+    margin-top: 5px;
+}
+
+.tee {
+    margin-top: -7px;
+    margin-left: -4.5px;
+}
