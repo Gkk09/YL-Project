@@ -3,12 +3,14 @@ div {
 }
 
 .header {
-    height: 70px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
+    margin-top: -10px;
     background-color: white;
+    z-index: 999;
 }
 
 .left-section {
@@ -18,12 +20,12 @@ div {
 
 .logo {
     width: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 .name {
     width: 140px;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
     margin-left: 10px;
 }
 
@@ -36,7 +38,7 @@ div {
 
 .search-bar {
     margin-left: 90px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 600px;
     height: 22px;
     border-color: rgb(151, 147, 147);
@@ -58,8 +60,8 @@ div {
     width: 34px;
     height: 27.7px;
     align-items: center;
-    margin-left: -35.65px;
-    margin-top: 10px;
+    margin-left: -33px;
+    margin-top: 20px;
     border-color: rgb(151, 147, 147);
     background-color: rgb(151, 147, 147);
     border-bottom-right-radius: 9px;
@@ -71,60 +73,29 @@ div {
     opacity: 0.9;
 }
 
-.search-icon {
-    height: 25px;
-    width: 27px;
-    margin-top: -2px;
-    margin-left: -4.5px;
-    border-right: 5px;
-}
-
 .right-section {
     width: 145px;
+    margin-left: 20px;
     align-items: right;
 }
 
 .fav-button {
     width: 40px;
-    margin-top: 10px;
-    margin-left: 20px;
-    background-color: white;
-    border-style: outset;
-    border-color: white;
-    border: solid white;
+    border: 1px solid white;
 }
 
-.heart {
-    width: 30px;
-    margin-right: 50px;
-    margin-top: -6px;
-    align-items: center;
 
-}
-
-.heart:active {
-    opacity: 0.85;
+.fav-button:active {
+    opacity: 0.7;
 }
 
 .cartwheel {
-    width: 40px;
-    margin-top: -3px;
-    background-color: white;
-    border-color: white;
-    border-style: outset;
-    border: solid white;
+   width: 40px;
+   border: 1px solid white;
 }
 
-.adding {
-   width: 28px;
-   height: 27.5px;
-   align-items: center;
-   margin-top: -4px;
-   margin-right: 20px;
-}
-
-.adding:active {
-    opacity: 0.85;
+.cartwheel:active {
+    opacity: 0.7;
 }
 
 .end-section {
@@ -133,7 +104,7 @@ div {
 }
 
 .signing-in {
-    margin-top: 8px;
+    margin-top: 18px;
     height: 30px;
     width: 70px;
     background-color: white;
@@ -278,8 +249,8 @@ button {
 }
 
 .spaces {
-    margin-left: 199px;
-    width: 850px;
+    margin-left: 90px;
+    width: 1100px;
 }
 
 .heading {
@@ -315,7 +286,7 @@ button {
     border-radius: 200px;
     background-color: red; 
     width: 35px;
-    position: relative;
+    position: absolute;
     transform: rotate(45deg);
     text-align: justify;
 }
@@ -328,4 +299,395 @@ button {
 .tee {
     margin-top: -7px;
     margin-left: -4.5px;
+}
+
+.book {
+    width: 140px;
+    height: 210px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 100px; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+    width: 130px;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+.ht-but {
+    width:30px;
+    margin-left:150px;
+    margin-top: 8px;
+    border-color: white;
+    border-style: outset;
+    border: solid white;
+}
+
+.ht-but:active {
+    opacity: 0.7;
+}
+
+.ct-but {
+    width:30px;
+    margin-left: 150px;
+    margin-top: 5px;
+    border-color: white;
+    border-style: outset;
+    border: solid white;
+}
+
+.ct-but:active {
+    opacity: 0.7;
+}
+
+.titl {
+    font-size: 14px;
+    margin-top: -60px;
+    margin-left: -30px;
+}
+
+.price {
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+.checked {
+    color:gold;
+}
+
+.star {
+    margin-top: -15px;
+    margin-left: -30px;
+}
+
+.rate {
+    font-size: 16px;
+    margin-top: -19px;
+    margin-left: 85px;
+}
+
+.book2 {
+    width: 140px;
+    height: 210px;
+    margin-left: 500px;
+    margin-top: -330px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book3 {
+    width: 140px;
+    height: 210px;
+    margin-left: 900px;
+    margin-top: -313px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cut {
+    width: 1238px;
+    height: 300px;
+    border: 10px solid rgb(161, 160, 160);
+    background-color: rgb(161, 160, 160);
+    margin-top: 50px; 
+    margin-left: -10px;
+}
+
+.conne {
+    width: 400px;
+    margin-left: 430px;
+    border-radius: 30px;
+    border-color: rgb(161, 160, 160);
+    font-size: 15px;
+    border: 10px;
+    color: black;
+    transition: background-color 0.2s;
+}
+
+.conne:hover {
+    background-color: rgb(231, 230, 230);
+}
+
+.conne:active {
+    opacity: 0.7;
+}
+
+.h1 {
+    width: 470px;
+    margin-left: 390px;
+    margin-top: 20px;
+    background-color: brown;
+    height: 1px;
+    border-color: brown;
+}
+
+.join {
+    width: 700px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    margin-left: 280px;
+    margin-top: 30px;
+}
+
+.p1 {
+    margin-left: 100px;
+    padding: 20px;
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.p2{
+    margin-left: 210px;
+    margin-top: -35px;
+    font-size: 20px;
+}
+
+.but {
+    width: 70px;
+    height: 68px;
+    border-radius: 40px;
+    color: black;
+    border: 1px solid red;
+    margin-left: 590px;
+    margin-top: 25px;
+}
+
+.click {
+    border-radius: 40px;
+    border: 1px solid white;
+    margin-left: -9px;
+    font-size: 22px;
+    color: black;
+    transition: background-color 0.2s;
+}
+
+.click:active {
+    opacity: 0.7;
+}
+
+.click:hover {
+    color: white;
+    background-color: rgb(206, 53, 53);
+}
+
+.fic {
+    font-size: 35px;
+    font-family: lato;
+    margin-left: 500px;
+}
+
+.line1 {
+    width: 170px;
+    margin-left: 530px;
+    background-color: brown;
+    height: 1px;
+    margin-top: -35px;
+}
+
+.line2 {
+    width: 85px;
+    margin-left: 570px;
+    background-color: red;
+    height: 1px;
+    margin-top: -7px;
+}
+
+.fic-books {
+    width: 400px;
+    height: 390px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.like {
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 370px;
+    border: 1px solid white;
+}
+
+.bookie {
+    width: 200px;
+    height: 200px;
+    margin-left: 95px;
+    margin-top: 10px;
+    border: 1px solid rgb(239, 235, 235);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.T {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.cost {
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.ster {
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.rating {
+    font-size: 16px;
+    margin-top: -19px;
+    margin-left: 130px;
+}
+
+.lin1 {
+    border-color: brown;
+    margin-left: -1px;
+    margin-top: -10px;
+    width: 400px;
+    height: 0.2px;
+    background-color: brown;
+}
+
+.low {
+    align-items: center;
+    margin-top: -25px;
+}
+
+.det1 {
+    margin-left: 22px;
+    width: 125px;
+    border: 1px solid white;
+}
+
+.det1:active {
+    color: rgb(204, 22, 22);
+}
+
+.add {
+    width: 50px;
+    margin-left: 25px;
+    color: brown;
+    border: 1px solid white;
+}
+
+.add:active {
+    color: black;
+}
+
+.stock {
+    width: 100px;
+    margin-left: 30px;
+    border: 1px solid white;
+}
+
+.stock:active {
+    color: rgb(204, 22, 22);
+}
+
+.fic-books2 {
+    width: 400px;
+    height: 390px;
+    margin-left: 700px;
+    margin-top: -390px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fic-books3 {
+    width: 400px;
+    height: 390px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fic-books4 {
+    width: 400px;
+    height: 390px;
+    margin-left: 700px;
+    margin-top: -390px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.extra {
+    font-size: 35px;
+    font-family: lato;
+    margin-left: 420px;
+}
+
+.line3 {
+    width: 220px;
+    margin-left: 505px;
+    background-color: brown;
+    height: 1px;
+    margin-top: -35px;
+}
+
+.line4 {
+    width: 160px;
+    margin-left: 540px;
+    background-color: red;
+    height: 1px;
+    margin-top: -7px;
+}
+
+.extra1 {
+    width: 400px;
+    height: 390px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.extra2 {
+    width: 400px;
+    height: 390px;
+    margin-left: 700px;
+    margin-top: -390px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.extra3 {
+    width: 400px;
+    height: 390px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.extra4 {
+    width: 400px;
+    height: 390px;
+    margin-left: 700px;
+    margin-top: -390px;
+    border: 1px solid rgb(239, 235, 235);
+    padding: 0px;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
