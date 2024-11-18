@@ -4,18 +4,20 @@ div {
 
 .header {
     height: 80px;
+    top: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
     position: fixed;
-    margin-top: -10px;
     background-color: white;
     z-index: 999;
+    width: 100%;
 }
 
 .left-section {
     display: flex;
     align-items: center;
+    padding-top: 25px;
 }
 
 .logo {
@@ -32,7 +34,6 @@ div {
 .middle-section {
     align-items: justify;
     display: flex;
-    flex: 1;
     max-width: 1500px;
 }
 
@@ -42,45 +43,48 @@ div {
     width: 600px;
     height: 22px;
     border-color: rgb(151, 147, 147);
-    flex: 1;
     border-width: 2px;
     border-style: solid;
     border-radius: 9px;
     box-shadow: inset 1px 2px 3px
     rgba(0, 0, 0, 0.05);
+    outline: none;
+    padding-inline: 10px;
 }
 
 .search-bar::placeholder {
     font-size: 15px;
     text-align: left;
-    padding-left: 50px;
 }
 
 .search-button {
-    width: 34px;
-    height: 27.7px;
-    align-items: center;
-    margin-left: -33px;
-    margin-top: 20px;
-    border-color: rgb(151, 147, 147);
-    background-color: rgb(151, 147, 147);
-    border-bottom-right-radius: 9px;
-    border-top-right-radius: 9px;
-    border: solid rgb(151, 147, 147);
+    width: 50px;
+    height: 30px;
+    margin-left: -50px;
+    color: grey;
+    background-color: transparent;
+    border: 0;
+    border: 0px solid white;
+   border-radius: 9px;
+   border-left: none;
 }
 
-.search-button:active {
+.search-button:hover {
     opacity: 0.9;
 }
 
+.search-button:active {
+    opacity: 0.3;
+}
+
 .right-section {
-    width: 145px;
-    margin-left: 20px;
-    align-items: right;
+    display: flex;
+    align-items: center;
 }
 
 .fav-button {
     width: 40px;
+    font-size: 25px;
     border: 1px solid white;
 }
 
@@ -91,6 +95,7 @@ div {
 
 .cartwheel {
    width: 40px;
+   font-size: 25px;
    border: 1px solid white;
 }
 
@@ -98,13 +103,10 @@ div {
     opacity: 0.7;
 }
 
-.end-section {
-    width: 300px;
-    align-items: center;
-}
 
 .signing-in {
     margin-top: 18px;
+    
     height: 30px;
     width: 70px;
     background-color: white;
@@ -137,8 +139,10 @@ div {
 
 .new {
     position: fixed;
-    margin-top: 20px;
-    
+    top: 10px;
+    margin: 3em auto;
+    width: 100vw;
+    background-color: #fff;
 }
 
 .smaL {
@@ -194,7 +198,7 @@ div {
 }
 
 .pic {
-    margin-top: 70px;
+    margin-top: 7em;
     width: 1240px;
     height: 600px;
     cursor: pointer;
@@ -301,93 +305,18 @@ button {
     margin-left: -4.5px;
 }
 
-.book {
-    width: 140px;
-    height: 210px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 50px;
-    margin: 20px;
-    margin-top: 50px;
-    margin-left: 100px; 
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.cards {
-    width: 130px;
-    margin-top: -30px;
-    margin-left: 5px;
-}
-
-.ht-but {
-    width:30px;
-    margin-left:150px;
-    margin-top: 8px;
-    border-color: white;
-    border-style: outset;
-    border: solid white;
-}
-
-.ht-but:active {
-    opacity: 0.7;
-}
-
-.ct-but {
-    width:30px;
-    margin-left: 150px;
-    margin-top: 5px;
-    border-color: white;
-    border-style: outset;
-    border: solid white;
-}
-
-.ct-but:active {
-    opacity: 0.7;
-}
-
-.titl {
-    font-size: 14px;
-    margin-top: -60px;
-    margin-left: -30px;
-}
-
-.price {
-    margin-top: -10px;
-    margin-left: -30px;
-}
 
 .checked {
     color:gold;
 }
 
-.star {
-    margin-top: -15px;
-    margin-left: -30px;
-}
-
-.rate {
-    font-size: 16px;
-    margin-top: -19px;
-    margin-left: 85px;
-}
-
-.book2 {
-    width: 140px;
-    height: 210px;
-    margin-left: 500px;
-    margin-top: -330px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 50px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.book3 {
-    width: 140px;
-    height: 210px;
-    margin-left: 900px;
-    margin-top: -313px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 50px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+.percent {
+    background-color: rgb(235, 235, 139);
+    opacity: 0.8;
+    width: 145px;
+    margin-top: 25px;
+    margin-left: -40px;
+    font-size: 13px;
 }
 
 .cut {
@@ -477,6 +406,11 @@ button {
     background-color: rgb(206, 53, 53);
 }
 
+.Fic-book {
+    width: 1000px;
+    display: grid;
+}
+
 .fic {
     font-size: 35px;
     font-family: lato;
@@ -500,194 +434,106 @@ button {
 }
 
 .fic-books {
-    width: 400px;
-    height: 390px;
-    margin-left: 100px;
-    margin-top: 50px;
+    width: 200px;
+    height: 100px;
     border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 100px; 
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.like {
-    width: 25px;
-    margin-top: 5px;
-    margin-left: 370px;
-    border: 1px solid white;
 }
 
 .bookie {
-    width: 200px;
-    height: 200px;
-    margin-left: 95px;
-    margin-top: 10px;
-    border: 1px solid rgb(239, 235, 235);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 95px;
+    margin-top: -40px;
+    margin-left: -40px;
 }
 
 .T {
     font-size: 14px;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: -150px;
+    margin-left: 70px;
 }
 
 .cost {
     margin-top: -10px;
-    margin-left: 20px;
+    margin-left: 70px;
 }
 
 .ster {
-    margin-top: -15px;
-    margin-left: 20px;
+    margin-top: -10px;
+    margin-left: 70px;
 }
 
 .rating {
     font-size: 16px;
     margin-top: -19px;
-    margin-left: 130px;
+    margin-left: 180px;
 }
 
-.lin1 {
-    border-color: brown;
-    margin-left: -1px;
-    margin-top: -10px;
-    width: 400px;
-    height: 0.2px;
-    background-color: brown;
+.heart-but {
+    width:30px;
+    margin-left:70px;
+    margin-top: 5px;
+    font-size: 15px;
+    border-color: white;
+    border-style: outset;
+    border: solid white;
+    color: grey;
 }
 
-.low {
-    align-items: center;
-    margin-top: -25px;
+.heart-but:active {
+    opacity: 0.7;
 }
 
-.det1 {
-    margin-left: 22px;
-    width: 125px;
-    border: 1px solid white;
+.cart-but {
+    width:30px;
+    height: 30px;
+    margin-left: -5px;
+    margin-top: -50px;
+    font-size: 15px;
+    border-color: white;
+    border-style: outset;
+    border: solid white;
+    color: grey;
 }
 
-.det1:active {
-    color: rgb(204, 22, 22);
+.cart-but:active {
+    opacity: 0.7;
 }
 
-.add {
-    width: 50px;
-    margin-left: 25px;
-    color: brown;
-    border: 1px solid white;
-}
-
-.add:active {
-    color: black;
-}
-
-.stock {
-    width: 100px;
-    margin-left: 30px;
-    border: 1px solid white;
-}
-
-.stock:active {
-    color: rgb(204, 22, 22);
+.likes {
+    background-color: rgb(235, 235, 139);
+    opacity: 0.8;
+    width: 145px;
+    margin-top: 25px;
+    margin-left: -40px;
+    font-size: 13px;
 }
 
 .fic-books2 {
-    width: 400px;
-    height: 390px;
-    margin-left: 700px;
-    margin-top: -390px;
+    width: 200px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: -220px;
     border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
+    padding: 50px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .fic-books3 {
-    width: 400px;
-    height: 390px;
-    margin-left: 100px;
-    margin-top: 100px;
+    width: 200px;
+    height: 100px;
     border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
+    background-color: white;
+    padding: 50px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.fic-books4 {
-    width: 400px;
-    height: 390px;
-    margin-left: 700px;
-    margin-top: -390px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.extra {
-    font-size: 35px;
-    font-family: lato;
-    margin-left: 420px;
-}
-
-.line3 {
-    width: 220px;
-    margin-left: 505px;
-    background-color: brown;
-    height: 1px;
-    margin-top: -35px;
-}
-
-.line4 {
-    width: 160px;
-    margin-left: 540px;
-    background-color: red;
-    height: 1px;
-    margin-top: -7px;
-}
-
-.extra1 {
-    width: 400px;
-    height: 390px;
-    margin-left: 100px;
-    margin-top: 50px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.extra2 {
-    width: 400px;
-    height: 390px;
-    margin-left: 700px;
-    margin-top: -390px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.extra3 {
-    width: 400px;
-    height: 390px;
-    margin-left: 100px;
-    margin-top: 100px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.extra4 {
-    width: 400px;
-    height: 390px;
-    margin-left: 700px;
-    margin-top: -390px;
-    border: 1px solid rgb(239, 235, 235);
-    padding: 0px;
-    display: grid;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+.card-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
